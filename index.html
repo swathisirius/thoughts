@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smile Buddy  &#x1F341;</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Grechen+Fuemen&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+  
+
+</head>
+<body>
+    <div class="navbar">
+        <h1>Thoughts &#x1F341;</h1>
+    </div>
+    <div class="container">
+        <div class="quote-container">
+            <h2>Day ~ 1</h2><br>
+            <p>Smile Buddy</p>
+            <h5>~unknown </h5>
+            <button onclick="deletequote(event)">Delete</button>
+        </div>
+    </div>
+    <div class="popup-overlay"></div>
+    <div class="popup-box">
+        <h2>Add Quote</h2>
+        <form>
+            <input type="text" placeholder="Day" id="title">
+            <input type="text" placeholder="Write a Quote" id="quote-input">
+            <textarea placeholder="Short Description" id="quote-description-input"></textarea>
+            <input type="text" placeholder="Author" id="quote-author-input"><button id="add-quote"> ADD</button>
+            <button id="cancel-popup">CANCEL</button>
+        </form>
+    </div>
+
+    <button class="add-button" id="add-popup-button">+</button>
+
+     <script src="scrpit.js"></script>
+</body>
+</html>
